@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+.container p{
+    color: #909294;
+}
+.container h1{
+    color: white;
+}
+.responsive-img p{
+    color: white;
+}
+.responsive-img a {
+    text-decoration: none;
+    color: white;
+}
+.more a{
+    color: white;
+}
+.more a:hover{
+    color:black;
+}
+.section-yazi h2{
+    color: #212529;
+    font-weight: bolder;
+}
+.section p{
+    color: #212529;
+}
+.section{
+    margin-top: 100px;
+}
+.kart h2{
+    color:#212529;
+    font-weight: bolder;
+}
+.backround{ background-image: url(img/bg1.png);}
+
+.procast{background-image: url(img/bg2.png);}
+.procast p{
+    color: white;
+}
+.procast a{
+    text-decoration: none;
+}
+.procastaciklama{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 100px;
+}
+.procastaciklama h1{
+    font-size: 2rem;
+}
+.dahafazlabilgi a{
+    text-decoration: none;
+    color: white;
+}
+.card a{
+    text-decoration: none;
+    color: #24282c;
+}
+.copyright{
+    background-image: url(img/copbg.png);
+}
+.copyright p {
+    color: white;
+    text-align: center;
+}
+@media screen and (max-width:767px) {
+    .mic2{
+       width: 100%;
+    }
+}
+@media screen and (min-width:768px) {
+    .mic2{
+       width: 250%;
+    }
+}
+@media screen and (min-width:992px) {
+    .mic2{
+        width: auto;
+    }
+}
+@media screen and (max-width:768px) {
+    .about_png{
+        width: 350px;
+    }
+    
+}
+
+
+/* ABOUT */ 
+
+.bizkimiz{
+    margin-bottom: 300px;
+}
+.bizkimizbaslik{
+    margin-top: 100px;
+}
+.aboutimg{
+    margin-top: 200px;
+}
+.section-yazi img{
+    border-radius: 20px;
+}
+.abouth1 h1{
+    color: black;
+}
+.procast h1{
+    padding-top: 25px;
+    font-size: 2rem;
+}
